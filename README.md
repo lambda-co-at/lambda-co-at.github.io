@@ -1,5 +1,5 @@
-# lambda.co.at website
+### lambda.co.at website
 
-# Remarks
+### Remarks
 pure html5, css3 and SVG.
 
