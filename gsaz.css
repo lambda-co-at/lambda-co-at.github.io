@@ -1,7 +1,6 @@
 		/********************************
-		 *	A	S	M	*
-		 ********************************/
-		
+		 ******A********S********M*******
+		 ********************************/		
 		#logo {
 			width:		750px;
 			margin:		0 auto;
@@ -71,6 +70,7 @@
                         box-shadow:     1px 2px #c0c0c0;
 			padding:	10px 25px;
                 	border-radius:	10px;
+
 			border-top-left-radius:  0;
 			border-top-right-radius: 0;
 		}
@@ -110,7 +110,5 @@
                         font-size:      7pt;
                         padding:        10px;
                         text-align:     center;
-                }
-
-
-		//GSAZ - GROESSTES STYLESHEET ALLER ZEITEN
+               }
+	       //GSAZ - GROESSTES STYLESHEET ALLER ZEITEN//
