@@ -1,9 +1,9 @@
 ### lambda.co.at website
 
-### Remarks:
+## Remarks:
 * pure html5, css3 and SVG.
 
-### TODO:
+## TODO:
 * marketing blah blah needs to change over time.
 
 #### All rights reserved (c)
