@@ -1,0 +1,116 @@
+		/********************************
+		 *	A	S	M	*
+		 ********************************/
+		
+		#logo {
+			width:		750px;
+			margin:		0 auto;
+			padding		0px;
+			text-align:	center;
+		}
+		#wraptocenter {
+			width:		750px;
+			height:		500px;
+			margin:		0 auto;
+			text-align: 	center;
+			padding:	15px;
+			margin-top:	0px;
+			border-top:	1px dotted #c0c0c0;
+                        border-right:   1px dotted #c0c0c0;
+                        border-left:    1px dotted #c0c0c0;
+                        border-radius:  25px;
+                        box-shadow:     0px 0px 25px #c0c0c0;
+		}
+		#motto {
+			padding: 	25px;
+			font-size: 	16pt;
+			letter-spacing: 4px;
+			word-spacing:	5px;
+			font-weight:	bold;
+		}
+		body { 
+			font-family:	'Shanti', sans-serif;
+			font-size:	10pt;
+			margin: 	0 0 auto;
+		}
+		#keywords {
+			text-align: 	left;
+			font-style: 	oblique;
+			font-size:	8pt;
+			padding:	5px;
+		}
+		a {
+			color: 		#000000;
+			text-decoration:none;
+		}
+		a:hover {
+                        border-bottom:  1px solid #c0c0c0;
+		}
+		p {
+			margin: 2px;
+		}
+		#left {
+			text-align:	left;
+			padding:	25px;
+		}
+		h2 {
+			font-size:	11pt;
+			font-weight: 	bold;
+			padding:	8px;
+			margin:		8px;
+		}	
+		.button {
+                        position:       absolute;
+                        right:          350px;
+			width:		40px;
+                        top:	        0px;  
+                        color:          #c0c0c0;
+                        text-shadow:    1px 1px 1px #c0c0c0;
+                        z-index:        9000;
+                        border:         1px dotted #c0c0c0;
+                        box-shadow:     1px 2px #c0c0c0;
+			padding:	10px 25px;
+                	border-radius:	10px;
+			border-top-left-radius:  0;
+			border-top-right-radius: 0;
+		}
+                .button:hover {
+                        border:         1px dotted  #c0c0c0;
+                        box-shadow:     0px 0px 20px 5px #000000;
+                        text-shadow:    0px 5px 20px #000000;
+                }  
+		.button:nth-child(4n+1) {
+			width:		40px;
+			right:		450px;
+		}
+		.button:nth-child(4n+2) {
+			width:		40px;
+			right:		550px;
+		}
+                .button:nth-child(4n+3) {
+			width:		40px;
+                        right:          650px;
+                }
+		a.buttonl {
+			color:		#c0c0c0;
+			text-decoration:none;
+			font-weight:	bold;
+			border:		0;
+		}
+		a.buttonl:hover {
+			color:		#000000;
+		}
+                address {
+                        font-style: normal;
+                }
+	        footer {
+                        /* logo is MINE! take whatever else you like. */
+                        position:       relative;
+                        bottom:         0;
+                        font-size:      7pt;
+                        padding:        10px;
+                        text-align:     center;
+                }
+
+
+		//GSAZ - GROESSTES STYLESHEET ALLER ZEITEN
