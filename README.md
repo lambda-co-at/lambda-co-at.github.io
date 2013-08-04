@@ -6,4 +6,4 @@
 ### TODO:
 * marketing blah blah needs to change over time.
 
-#### All rights reserved (r)
+#### All rights reserved (c)
