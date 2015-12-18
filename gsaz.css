@@ -1,9 +1,6 @@
-
 /********************************************
  ************A********S********M*************
  ********************************************/      
-
-
 body { 
     font-family:            'Shanti', sans-serif;
     font-size:              10pt;
@@ -12,11 +9,11 @@ body {
     overflow:               hidden;
 }
 a {
-    color:                  #000000;
+    color:                  black;
     text-decoration:        none;
 }
 a:hover {
-    border-bottom:          1px solid #c0c0c0;
+    border-bottom:          1px solid grey;
 }
 p {
     margin:                 2px;
@@ -52,29 +49,27 @@ nav li {
     width:                  60px;
     float:                  left;
     margin:                 0 10px 0 0;
-    color:                  #000000;
+    color:                  black;
     padding:                10px 30px;
-    //text-shadow:            1px 1px 1px #c0c0c0;
-    border:                 1px solid #000000;
+    text-shadow:            1px 1px 1px grey;
+    border:                 1px solid black;
     border-top:             0px;
-    //box-shadow:             1px 2px #c0c0c0;
-    //border-radius:          0 0 10px 10px;
 }
 nav li:hover {
-    border:                 1px solid #c0c0c0;
-    //box-shadow:             0px 0px 20px 6px #000000;
-    text-shadow:            0px 6px 20px #000000;
+    border:                 2px outlet grey;
+    box-shadow:             0px 0px 20px 4px black;
+    text-shadow:            0px 6px 20px black;
 }  
 nav li a {
-    color:                  #000000;
+    color:                  black;
     text-decoration:        none;
     border:                 0;
     font-weight:            bold;
 }
 nav li a:hover {
-    color:                  #000000;
-    border-bottom:          1px solid #c0c0c0;
-    //text-shadow:            0px 6px 12px #000000;
+    color:                  black;
+    border-bottom:          none;
+    text-shadow:            0px 6px 12px black;
 }
 footer {
     width:                  100%;
@@ -113,7 +108,7 @@ nav li {
     padding:                15px;
     margin-top:             0px;
     //border-radius:          25px;
-    //box-shadow:             0px 15px 50px #000000;
+    //box-shadow:             0px 15px 50px black;
 }
 #keywords {
     font-style:             oblique;
