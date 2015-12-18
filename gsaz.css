@@ -24,6 +24,11 @@ p {
 img {
     border:                 0px;
 }
+h1 {
+    font-size:              14pt;
+    border-bottom:          2px dashed;
+    padding:                4px;
+}
 h2 {
     font-size:              11pt;
     font-weight:            inherit;
