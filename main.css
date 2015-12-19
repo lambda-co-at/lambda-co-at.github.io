@@ -1,10 +1,8 @@
-/********************************************
- ************A********S********M*************
- ********************************************/      
-body { 
+body {
     font-family:            'Shanti', sans-serif;
     font-size:              10pt;
     font-weight:            lighter;
+    text-transform:         lowercase; // yep!
     margin:                 0 0 auto;
 }
 a {
@@ -22,15 +20,20 @@ img {
     border:                 0px;
 }
 h1 {
-    font-size:              14pt;
+    font-size:              12pt;
     border-bottom:          2px solid;
-    padding:                4px;
+    margin:                 0;
+    margin-bottom:          25px;
+    padding:                10px;
 }
 h2 {
     font-size:              12pt;
     font-weight:            inherit;
-    padding:                8px;
-    margin:                 5px;
+    letter-spacing:         2pt;
+    word-spacing:           2pt;
+    padding:                10px;
+    margin:                 10px;
+    text-shadow:            0px 1px 5px grey;
 }
 h3 {
     width:                  400px;
@@ -38,7 +41,7 @@ h3 {
     font-weight:            inherit;
     padding:                4px;
     margin:                 0 auto;
-    margin-bottom:          5px;
+    margin-bottom:          5pautox;
     border-bottom:          1px dotted grey;
 }
 address {
@@ -46,8 +49,8 @@ address {
 }
 nav {
     width:                  800px;
-    height:                 100px;
     margin:                 0 auto;
+    padding-bottom:         20px;
 }
 nav ul {
     margin:                 0 auto;
@@ -68,7 +71,7 @@ nav li:hover {
     border:                 2px outlet grey;
     box-shadow:             0px 0px 20px 4px black;
     text-shadow:            0px 6px 20px black;
-}  
+}
 nav li a {
     color:                  black;
     text-decoration:        none;
@@ -81,8 +84,9 @@ nav li a:hover {
     text-shadow:            0px 6px 12px black;
 }
 footer {
+    margin:                 0 auto;
     width:                  100%;
-    position:               absolute;
+    position:               relative;
     bottom:                 0;
     font-size:              7pt;
     padding:                10px;
@@ -97,37 +101,70 @@ nav li {
 #logo {
     width:                  750px;
     margin:                 0 auto;
-    padding:                0px;
+    margin-bottom:          10px;
     text-align:             center;
 }
 #logo a {
     border:                 0px;
 }
+/*#logo img {
+    position:               relative;
+    -webkit-animation:              lam 4s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-direction: alternate;
+    animation:              lam 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+@-webkit-keyframes lam {
+    from {right: 400px;}
+    to {left: 0px;}
+}
+@keyframes lam {
+    from {right: 400px;}
+    to {left: 0px;}
+}*/
 #tagline {
+    width:                  calc(50% - 100px);
+    text-align:             center;
+    margin:                 25px auto;
     padding:                25px;
-    font-size:              12pt;
+    font-size:              10pt;
     letter-spacing:         2px;
     word-spacing:           4px;
-    font-style:             oblique;
 }
 #wrap {
-    width:                  750px;
+    width:                  calc(65% - 250px);
     margin:                 0 auto;
     text-align:             center;
+    font-size-adjust:       0.8;
     padding:                15px;
     margin-top:             0px;
-    //border-radius:          25px;
-    //box-shadow:             0px 15px 50px black;
+    border-radius:          5px;
+    box-shadow:             0px 0px 5px grey;
 }
 #keywords {
     font-style:             oblique;
-    font-size:              8pt;
-    padding:                25px;
+    font-size:              6pt;
+    word-spacing:           2pt;
+    margin-top:             25px;
 }
 #left {
+    margin:                 0 auto;
+    width:                  60%;
     text-align:             left;
     padding:                0 0 25px 25px;
-} 
+}
 #left h2 {
     padding:                0px;
+    text-indent:            10px;
+    font-variant:           small-caps;
+}
+dt {
+    text-decoration:        underline;
+    padding:                5px;
+}
+em {
+    font-variant:           small-caps;
+    font-style:             italic;
 }
