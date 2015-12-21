@@ -90,6 +90,9 @@ nav li a:hover {
     color:                  black;
     border-bottom:          none;
     text-shadow:            0px 6px 12px black;
+    text-decoration-line:   underline;
+    text-decoration-style:  dotted;
+    text-decoration-color:  grey;
 }
 footer {
     margin:                 0 auto;
