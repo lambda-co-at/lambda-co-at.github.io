@@ -71,7 +71,13 @@ nav li:hover {
     border:                 2px outlet grey;
     box-shadow:             0px 0px 20px 4px black;
     text-shadow:            0px 6px 20px black;
+<<<<<<< HEAD
     border-bottom:          1px dotted grey;
+=======
+    text-decoration:        underline;
+    text-decoration-style:  1px dotted grey;
+    border-bottom:          1px solid grey;
+>>>>>>> 2160b91df0ef41119bc75aa68d0c1775e48d4bab
 }
 nav li a {
     color:                  black;
