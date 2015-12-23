@@ -154,13 +154,13 @@ nav li {
     word-spacing:           2pt;
     margin-top:             25px;
 }
-#left {
+.left {
     margin:                 0 auto;
     width:                  60%;
     text-align:             left;
     padding:                0 0 25px 25px;
 }
-#left h2 {
+.left h2 {
     padding:                0px;
     text-indent:            10px;
     font-variant:           small-caps;
